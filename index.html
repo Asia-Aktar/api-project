@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-gray-800 ">
+    <div class="container mx-auto text-center ">
+    <h1 class="text-4xl font-bold text-white my-10">Search For Your Drink 🔎</h1>
+        <div class="bg-white w-1/2 mx-auto p-2 border rounded-xl flex justify-between gap-2">
+            <input type="text" placeholder="Ex.Drinks" class=" p-4  w-full border-transparent" id="input">
+            <button class="btn bg-orange-500 hover:bg-orange-700 rounded text-white px-4 py-4" id="search">search</button>
+        </div>
+    </div>
+    <div class="container mx-auto border border-gray-600 min-h-[600px] rounded-xl mt-6 p-4"  >
+        <h2 id="noDrink"
+        class= "text-gray-300 text-center text-4xl mt-16 font-semibold capitalize">No Meal to Show!</h2>
+
+          <div class="drink-wrapper grid grid-cols-4 gap-6 "> 
+            <!-- <div class="drink-box border  border-gray-500 rounded-xl"> -->
+           <!--  <img src="https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg" alt="" class="rounded h-[200px] w-full object-cover"> --> 
+           <!-- <div class="p-3"> -->
+            <!-- < <h3 class="heading text-2xl text-white">Leblabi Drinks</h3> --> 
+           <!--  <p class="text-gray-400 my-2">Shake a handful of mint, 2oz white  --> 
+           <!-- rum, 1oz of sugar syrup, 1oz lime juice  -->
+        <!-- and 2 dashes angostura bitters with ice. -->
+           <!-- Double ... -->
+       <!-- </p> -->
+        <!-- <! <p class="italic text-gray-500"><span>Tunisian</span>Vegetarian  --> 
+     <!-- <span></span></p> -->
+           <!-- <div class="my-4 "> -->
+            <!-- <a href="#"class="btn">watch</a> -->
+            <!-- <button class="px-3 text-white">View Recipe</button> -->
+           <!-- </div> -->
+           <!-- </div> -->
+        <!-- </div> -->
+          <!-- </div> -->
+        
+        </div>
+    </div>
+<div>
+  <div class="flex items-center justify-center min-h-screen">
+    <div id="details"
+        class="overlay fixed top-0 left-0  right-0 mr-auto	w-FULL flex h-full items-center justify-center bg-stone-400 invisible">
+        <!-- <div class="popup bg-white w-[70%] min-h-[500px] p-10"> -->
+       <!-- <h2 class="text-2xl font-bold mb-4">Popup Title</h2> -->
+       <!-- <p class="mb-6">Popup ipsum dolor sit amet consectetur adipisici.</p> -->
+       <!-- <button class="px-4 py-2 bg-orange-400 hover:bg-orange-500 text-white rounded"> -->
+      <!-- Close -->
+       <!-- </button> -->
+        <!-- </div> -->
+    </div>
+  </div>
+  <!-- </div> -->
+    <script src="index.js"></script>
+     
+</body>
+</html>
